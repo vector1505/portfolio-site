@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import Header from './components/Header'
-import NameCard from './components/NameCard'
+import About from './components/About'
 import './App.css'
 
 function App() {
   return(
     <>
       <Header />
-      <NameCard />
+      <About />
     </>
   )
 }
